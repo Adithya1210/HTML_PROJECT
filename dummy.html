@@ -1,0 +1,401 @@
+/* navbar starts */
+
+
+.navbar{
+  background-color:black;
+}
+.navbar-toggler{
+  background-color: white;
+}
+.navheading{
+  text-align: center;
+  /* margin-bottom: 50px; */
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navheading span{
+  color: #b2744c;
+}
+
+.nav-item .nav-link{
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.nav-item .nav-link:hover{
+  background: green;
+  border-radius: 5px;
+  /* color: black; */
+}
+
+.navbar-toggler:hover{
+  background: #f7f5f2;
+  border-radius: 5px;
+  /* color: black; */
+}
+/* navbar ends */
+/* carousel starts */
+/* carousel ends */
+/* about us starts */
+.aboutheading{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  color: black;
+  text-shadow: 1px 1px 1px black;
+  border-bottom: 2px solid rgba(161,109,14,1);
+  font-size: 40px;
+}
+
+.aboutheading span{
+  color: #b2744c;
+}
+
+/* .bgimg{ */
+  /* background-image:url('./images/bg3.jpg');background-repeat: no-repeat;background-size: cover;  */
+  /* opacity:.1; */
+  /*.1 to .9*/  
+/* } */
+.aboutimg:hover{
+      transform: scale(1.1); /* Adjust the scale factor as needed */
+      transition: transform 0.3s ease-in-out; /* Smooth transition */
+      
+}
+
+.aboutimg{
+    /* border-radius: 15px; */
+    /* border: 2px solid black; */
+    box-shadow: #573818;
+  
+}
+
+.aboutsubhead{
+  text-align: center;
+}
+
+.aboutpara{
+  text-align: justify;
+  /* font-weight: bold; */
+}
+/* about ends */
+/* services starts */
+.serviceimg{
+  /* border: 2px solid black; */
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.serviceimg:hover{
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+
+/* ourteam */
+.product-cards .card{
+  background-color: rgba(161,109,14,1);
+  box-shadow: 0 0 3px black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.overlay{
+   opacity: 0;
+  position: absolute;
+  top: 10%;
+  /* margin-left: 0; */
+  /* width: 70px; */
+  /* display: block; */
+}
+
+.product-cards .card:hover .overlay{
+  opacity: 1;
+  margin-left: 5%;
+  transition: 0.5s ;
+}
+
+.product-cards h6{
+  font-size: 20px;
+  color: #2e1700;
+  font-weight: bold;
+}
+/* our team ends */
+/* contact us */
+.touch{
+  text-align: center;
+}
+/* contact us ends */
+/* footer starts */
+.pa{
+  text-align: justify;
+  color: white;
+}
+
+.icons i{
+  background-color: white;
+  color: #573818;
+  border-radius: 50px;
+  padding: 6px;
+  font-size: 30px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.icons i:hover{
+  background-color: rgba(161,109,14,1);
+  color: white;
+}
+
+.copyright{
+  color: white;
+  margin-top: 20px;
+}
+.credite{
+  color: white;
+}
+.text{
+  color: white;
+}
+
+/* about.html  */
+.aboutpara2{
+  text-align: center;
+  font-weight: bold;
+}
+.aboutsubhead2{
+  text-align: center;
+}
+/* .bgimg2{
+  background-image:url('./images/bg1.jfif');background-repeat: no-repeat;background-size: cover;
+} */
+/* testmonial */
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 10px;
+}
+
+.testimonial-container {
+  background-color: #476ce4;
+  color: white;
+  border-radius: 15px;
+  margin: 20px auto;
+  padding: 50px 80px;
+  max-width: 768px;
+  position: relative;
+}
+
+.fa-quote {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 28px;
+  position: absolute;
+  top: 70px;
+}
+
+.fa-quote-left {
+  left: 40px;
+}
+
+.fa-quote-right {
+  right: 40px;
+}
+
+.testimonial {
+  line-height: 28px;
+  text-align: justify;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user .user-image {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+}
+
+.user .user-details {
+  margin-left: 10px;
+}
+
+.user .username {
+  margin: 0;
+}
+
+.user .role {
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  background-color: white;
+  height: 4px;
+  width: 100%;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
+}
+
+@keyframes grow {
+  0% {
+    transform: scaleX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-container {
+    padding: 20px 30px;
+  }
+
+  .fa-quote {
+    display: none;
+  }
+}
+
+
+
+ 
+
+
+
+<!-- <div class="col-md-6 py-3 py-md-0" style="background-image:url(./images/pr1.JPG);"> -->
+  <div class="container mt-3">
+    <h3 class="touch">GET IN TOUCH</h3>
+    <form action="action_page.php">
+        <div class="mb-3 mt-3">
+            <!-- <label for="email">email:</label> -->
+            <input type="name" class="form-control" id="name" placeholder="Name" name="name">
+        </div>
+        <div class="mb-3">
+            <!-- <label for="pwd">password:</label> -->
+            <input type="email" class="form-control" id="email" placeholder="Email" name="email"> 
+        </div>
+       
+        <div class="form-group mb-2" >
+          <textarea class="form-control" rows="3" id="comment" placeholder="Message"></textarea>
+      </div>
+      <div class="mb-2">
+      <button type="submit" class="btn btn-success ">Send Message</button></div>
+    </div>
+       
+       
+   </div>
+</div>
+</div>
+
+                                    <!-- </div> -->
+     <!-- </div> -->
+
+
+
+
+
+
+     <!-- <img src="./images/teampa.jpg" class=" img-fluid " alt="sry" > -->
+ <!-- HALDI  -->
+<!-- <div class="container mt-5 mb-5 ">
+
+    <div class="aboutheading">Our <span>Gallery</span></div>
+
+    <div class="row" style="margin-top: 30px;">
+         <div class="col-md-6">
+         <div class="card">
+         <img src="./images/team1.jpg" class=" img-fluid aboutimg" alt="sry">
+         </div>
+         </div>
+
+         <div class="col-md-6">
+          <div class="container mt-3">
+            <div data-aos="flip-up">
+            <script>
+            AOS.init();
+            </script> -->
+         <!-- <h3 class="aboutsubhead">HAL</h3> -->
+         <img src="./images/team1.jpg" class=" img-fluid aboutimg" alt="sry"></div>
+                             
+         </div>
+    </div>
+
+    </div>
+
+    </div>
+<!-- HALDI -->
+
+ <!-- HALDI  -->
+ <div class="container mt-5 mb-5 ">
+
+  <div class="aboutheading">Our <span>Gallery</span></div>
+
+  <div class="row" style="margin-top: 30px;">
+       <div class="col-md-6">
+       <div class="card">
+       <img src="./images/team1.jpg" class=" img-fluid aboutimg" alt="sry">
+       </div>
+       </div>
+
+       <div class="col-md-6">
+        <div class="container mt-3">
+          <div data-aos="flip-up">
+          <script>
+          AOS.init();
+          </script>
+       <!-- <h3 class="aboutsubhead">HAL</h3> -->
+       <img src="./images/team1.jpg" class=" img-fluid aboutimg" alt="sry"></div>
+                           
+       </div>
+  </div>
+
+  </div>
+
+  </div>
+<!-- HALDI -->
+
+ <!-- HALDI  -->
+ <div class="container mt-5 mb-5 ">
+
+  <div class="aboutheading">Our <span>Gallery</span></div>
+
+  <div class="row" style="margin-top: 30px;">
+       <div class="col-md-6">
+       <div class="card">
+       <img src="./images/team1.jpg" class=" img-fluid aboutimg" alt="sry">
+       </div>
+       </div>
+
+       <div class="col-md-6">
+        <div class="container mt-3">
+          <div data-aos="flip-up">
+          <script>
+          AOS.init();
+          </script>
+       <!-- <h3 class="aboutsubhead">HAL</h3> -->
+       <img src="./images/team1.jpg" class=" img-fluid aboutimg" alt="sry"></div>
+                           
+       </div>
+  </div>
+
+  </div>
+
+  </div>
+<!-- HALDI -->
+
+ 
+           

@@ -1,0 +1,180 @@
+/* navbar starts */
+/* img{
+  width: 250px;
+  height: 250px;
+} */
+
+.navbar{
+  background-color:black;
+}
+.navbar-toggler{
+  background-color: white;
+}
+.navheading{
+  text-align: center;
+  
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navheading span{
+  color: #b2744c;
+}
+
+.nav-item .nav-link{
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.nav-item .nav-link:hover{
+  background: green;
+  border-radius: 5px;
+  
+}
+
+.navbar-toggler:hover{
+  background: #f7f5f2;
+  border-radius: 5px;
+ 
+}
+/* navbar ends */
+
+
+/* about us starts */
+.aboutheading{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  color: black;
+  text-shadow: 1px 1px 1px black;
+  border-bottom: 2px solid rgba(161,109,14,1);
+  font-size: 40px;
+}
+
+.aboutheading span{
+  color: #b2744c;
+}
+
+/* .bgimg{ */
+  /* background-image:url('./images/bg3.jpg');background-repeat: no-repeat;background-size: cover;  */
+  /* opacity:.1; */
+  /*.1 to .9*/  
+/* } */
+.aboutimg:hover{
+      transform: scale(1.1); /* Adjust the scale factor as needed */
+      transition: transform 0.3s ease-in-out; /* Smooth transition */
+      
+}
+
+.aboutimg{
+    /* border-radius: 15px; */
+    /* border: 2px solid black; */
+    box-shadow: #573818;
+  
+}
+
+.aboutsubhead{
+  text-align: center;
+}
+
+.aboutpara{
+  text-align: justify;
+  /* font-weight: bold; */
+}
+/* about ends */
+
+
+/* services starts */
+.serviceimg{
+  /* border: 2px solid black; */
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.serviceimg:hover{
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+
+/* ourteam */
+.product-cards .card{
+  background-color: rgba(161,109,14,1);
+  box-shadow: 0 0 3px black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.overlay{
+   opacity: 0;
+  position: absolute;
+  top: 10%;
+  /* margin-left: 0; */
+  /* width: 70px; */
+  /* display: block; */
+}
+
+.product-cards .card:hover .overlay{
+  opacity: 1;
+  margin-left: 5%;
+  transition: 0.5s ;
+}
+
+.product-cards h6{
+  font-size: 20px;
+  color:green;
+  font-weight: bolder;
+}
+
+.product-cards P{
+  font-size: 20px;
+  color:green;
+  font-weight: bolder;
+}
+/* our team ends */
+/* contact us */
+.touch{
+  text-align: center;
+}
+/* contact us ends */
+/* footer starts */
+.pa{
+  text-align: justify;
+  color: white;
+}
+
+.icons i{
+  background-color: white;
+  color: #573818;
+  border-radius: 50px;
+  padding: 6px;
+  font-size: 30px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.icons i:hover{
+  background-color: rgba(161,109,14,1);
+  color: white;
+}
+
+.copyright{
+  color: white;
+  margin-top: 20px;
+}
+.credite{
+  color: white;
+}
+.text{
+  color: white;
+}
+
+/* about.html  */
+.aboutpara2{
+  text-align: center;
+  /* font-weight: bold; */
+}
+.aboutsubhead2{
+  text-align: center;
+}
